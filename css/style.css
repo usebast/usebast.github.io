@@ -1,0 +1,132 @@
+html, body { margin: 0; padding: 0; height: 100%; text-align: center;}
+section { min-height: 100%; }
+
+
+/* load fonts  */
+@import url('https://fonts.googleapis.com/css?family=Archivo');
+@import url('https://fonts.googleapis.com/css?family=Amatic SC');
+@import url('https://fonts.googleapis.com/css?family=Economica');
+@import url('https://fonts.googleapis.com/css?family=Averia+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira Sans Extra Condensed');
+
+a { color: #003153;  text-decoration: none;}
+li { list-style-type: none;}
+h1, h2 {font-family: 'Amatic SC', cursive; color: #003153;}
+h3 {font-size: 40px; padding-top: 8%; margin-bottom: 5px;}
+h4 {font-family: 'Averia Libre', cursive; color: #494949;}
+hr {width: 30px; height: 0; background: #494949; border: 3; margin: 0 auto 70px auto;}
+p {font-family: 'Dosis', sans-serif; font-size: 12px;}
+
+/* define transition animations*/
+#logo {transition: all 300ms;}
+#main-nav {transition: all 300ms;}
+
+/* header */
+header { width: 100%; height: 70px; position: fixed; top: 0; left: 0;  background: rgba(211, 211, 211, 0.5); box-shadow: 0 5px 3px rgba(0, 0, 0, 0.1); z-index: 1;}
+#logo {float: left; font-size: 22px; height: 60px; margin: -25px 0 0px 0px; padding-left: 50px;}
+#logo:hover { opacity: 0.5;}
+#main-nav { color: #003153; float: right; padding-right: 50px;}
+#main-nav:hover {opacity: 0.5;}
+header nav {float left; margin: 0 0 0 0 }
+header nav ul li {float: left; margin-right: 16px; color: #003153; }
+
+/* home */
+#home {background: url("images/landing_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed;}
+#home h1 {margin: 350px auto 0 auto; font-size: 60px; }
+#home h2 {margin: 0 auto 0 auto; font-size: 30px; color: rgba(0, 49, 83, 0.5);}
+#home img {width: 32px; margin-top: 50px; opacity: 0.5;}
+
+/* Works split screen - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+/* home */
+#works {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed;}
+#works h1 {margin: 0px auto 0 auto; font-size: 40px; }
+#works h2 {margin: 0 auto 0 auto; font-size: 30px; color: rgba(0, 49, 83, 0.5);}
+#works p {font-family: 'Dosis', sans-serif; color: rgba(0, 49, 83, 0.5); font-size: 12px;}
+
+
+
+/* about   height: 100px; text-align: center; display: inline-block;  */
+#about {
+        background: url("images/works/workbkg.jpg");
+        background-position: center bottom;
+        background-size: cover;
+        background-attachment: fixed;
+        text-align: center;
+
+      }
+#about h1 {margin: 90px auto 0 auto; font-size: 40px;}
+.wrapper {text-align: center;}
+.bio {
+  height: 600px;
+  width: 600px;
+  display: inline-block;
+  text-align: justify;
+  background-color: rgba(0, 49, 83, 0.5);
+  padding-left: 20px;
+  padding-right: 20px;
+  color: White;
+}
+.eventlist {
+  height: 600px;
+  width: 610px;
+  display: inline-block;
+  text-align: justify;
+  background-color: rgba(0, 49, 83, 0.5);
+  padding-left: 20px;
+  padding-right: 20px;
+  color: White;
+
+}
+
+.pagetitle { height: 100%; margin-top: 170px; background-color: #f1f1f1; height:50px;}
+
+#events {background: url("images/works/workbkg.jpg");
+          background-position: center bottom;
+            background-size: cover;
+              background-attachment: fixed;}
+#events h1 {margin: 70px auto 0 auto; font-size: 60px; }
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    }
+  }
+
+/* works */
+.row {}
+.bubu {float: left; width: 50%;}
+.bubu hr {width: 30px; height: 0; background: #494949; border: 3; margin: 20px auto 20px auto;}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Contact */
+#contact h1 {margin: 70px auto 0 auto; font-size: 60px; }
+#contact {background: url("images/works/rotate_bkg.jpg");
+background-position: center bottom;
+background-size: cover;
+background-attachment: fixed;}
+
+.cucu {text-align: center; display: inline-block;}
+#disclamer {width: 600px;
+  text-align: justify;
+  background-color: rgba(0, 49, 83, 0.5);
+  padding: 20px;
+  color: White;}
+form input, textarea {font-family: 'Dosis', sans-serif; outline: none; font-size: 15px;
+margin-bottom: 10px; border-radius: 2px; border: 2px solid; border-color: #494949}
+form input {width: 552px; height: 30px;}
+textarea {width: 552px; height: 200px; resize: none;}
+.input_text {color: #494949; padding-left: 10px;}
+.button {background-color: #f0f0f0; color: #494949; width: 566px; height: 50px;}
+.button:hover {background-color: #494949; color: #f0f0f0;}
+
+/* footer */
+footer {font-family: 'Dosis', sans-serif; font-size: 12px; width: 100%; height: 50px; position: fixed; bottom: 0; left: 0;  background: rgba(211, 211, 211, 0.5); box-shadow: 0 5px 3px rgba(0, 0, 0, 0.1); z-index: 1;}
