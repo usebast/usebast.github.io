@@ -134,7 +134,7 @@ textarea {width: 552px; height: 200px; resize: none;}
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-content: center;
+  align-self: center;
   height: 200px;
 }
 
