@@ -130,21 +130,9 @@ textarea {width: 552px; height: 200px; resize: none;}
 /* Gallery */
 
 /* Create four equal columns that sits next to each other */
-.gcolumn {
-  flex: 30%;
+.flex-container {
+  display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-.gcolumn img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
-
-.gcolumn img:hover {
-  opacity: 1;
 }
 
 /* Clear floats after the columns */
