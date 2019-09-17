@@ -132,6 +132,7 @@ textarea {width: 552px; height: 200px; resize: none;}
 /* Create four equal columns that sits next to each other */
 .gcolumn {
   flex: 30%;
+  flex-direction: row;
   max-width: 30%;
   padding: 0 4px;
 }
