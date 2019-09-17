@@ -135,6 +135,7 @@ textarea {width: 552px; height: 200px; resize: none;}
   flex-direction: row;
   align-content: center;
   height: 200px;
+  width: 600px;
 }
 
 /* Clear floats after the columns */
