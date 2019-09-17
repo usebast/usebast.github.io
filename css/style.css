@@ -134,7 +134,6 @@ textarea {width: 552px; height: 200px; resize: none;}
   flex: 30%;
   flex-direction: row;
   flex-wrap: wrap;
-  max-width: 30%;
   padding: 0 4px;
 }
 
