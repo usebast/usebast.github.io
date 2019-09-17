@@ -137,6 +137,11 @@ textarea {width: 552px; height: 200px; resize: none;}
   height: auto;
 }
 
+.moto{
+  object-fit: moto;
+ width: 50px;
+ height: 100px;
+}
 /* Clear floats after the columns */
 .grow:after {
   content: "";
