@@ -142,9 +142,8 @@ textarea {width: 552px; height: 200px; resize: none;}
   width: 610px;
   display: inline-block;
   text-align: justify;
-  background-color: rgba(0, 49, 83, 0.2);
-  padding-left: 20px;
-  padding-right: 20px;
+  background-color: rgba(0, 49, 83, 0.4 );
+  padding: 20px;
   color: White;
 }
 /* Clear floats after the columns */
