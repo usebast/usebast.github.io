@@ -45,7 +45,7 @@ header nav ul li {float: left; margin-right: 16px; color: #003153; }
 #works h2 {margin: 0 auto 0 auto; font-size: 30px; color: rgba(0, 49, 83, 0.5);}
 #works p {font-family: 'Dosis', sans-serif; font-size: 12px; color: #fff;}
 #merkel p {
-  color: rgba(0, 49, 83, 0.5);
+  font-family: 'Dosis', sans-serif; font-size: 12px; color: rgba(0, 49, 83, 0.5);
 }
 
 
