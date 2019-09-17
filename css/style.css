@@ -46,7 +46,6 @@ header nav ul li {float: left; margin-right: 16px; color: #003153; }
 #works p {font-family: 'Dosis', sans-serif; color: rgba(0, 49, 83, 0.5); font-size: 12px;}
 
 
-
 /* about   height: 100px; text-align: center; display: inline-block;  */
 #about {
         background: url("images/works/workbkg.jpg");
@@ -127,6 +126,58 @@ textarea {width: 552px; height: 200px; resize: none;}
 .input_text {color: #494949; padding-left: 10px;}
 .button {background-color: #f0f0f0; color: #494949; width: 566px; height: 50px;}
 .button:hover {background-color: #494949; color: #f0f0f0;}
+
+/* Gallery */
+/* The grid: Four equal columns that floats next to each other */
+.gcolumn {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.gcolumn img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.gcolumn img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.grow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.gcontainer {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+
 
 /* footer */
 footer {font-family: 'Dosis', sans-serif; font-size: 12px; width: 100%; height: 50px; position: fixed; bottom: 0; left: 0;  background: rgba(211, 211, 211, 0.5); box-shadow: 0 5px 3px rgba(0, 0, 0, 0.1); z-index: 1;}
