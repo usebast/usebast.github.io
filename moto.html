@@ -5,6 +5,20 @@
         <meta charset="utf-8">
         <link href="css/style.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+        <script>
+        function myFunction(imgs) {
+          // Get the expanded image
+          var expandImg = document.getElementById("expandedImg");
+          // Get the image text
+          var imgText = document.getElementById("imgtext");
+          // Use the same src in the expanded image as the image being clicked on from the grid
+          expandImg.src = imgs.src;
+          // Use the value of the alt attribute of the clickable image as text inside the expanded image
+          imgText.innerHTML = imgs.alt;
+          // Show the container element (hidden with CSS)
+          expandImg.parentElement.style.display = "block";
+        }
+        </script>
     </head>
 
 <body>
@@ -53,20 +67,7 @@ The Bike model is made by Gonzo_3d @Turbosquid.
   <div id="imgtext"></div>
 </div>
 
-<script>
-function myFunction(imgs) {
-  // Get the expanded image
-  var expandImg = document.getElementById("expandedImg");
-  // Get the image text
-  var imgText = document.getElementById("imgtext");
-  // Use the same src in the expanded image as the image being clicked on from the grid
-  expandImg.src = imgs.src;
-  // Use the value of the alt attribute of the clickable image as text inside the expanded image
-  imgText.innerHTML = imgs.alt;
-  // Show the container element (hidden with CSS)
-  expandImg.parentElement.style.display = "block";
-}
-</script>
+
               <hr>
           </div><!--   row-->
   </div> <!--   divend wrapper -->
