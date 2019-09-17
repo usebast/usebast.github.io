@@ -128,17 +128,18 @@ textarea {width: 552px; height: 200px; resize: none;}
 .button:hover {background-color: #494949; color: #f0f0f0;}
 
 /* Gallery */
-/* The grid: Four equal columns that floats next to each other */
+
+/* Create four equal columns that sits next to each other */
 .gcolumn {
-  float: left;
-  width: 25%;
-  padding: 10px;
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
 }
 
-/* Style the images inside the grid */
 .gcolumn img {
-  opacity: 0.8;
-  cursor: pointer;
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
 }
 
 .gcolumn img:hover {
