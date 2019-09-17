@@ -130,7 +130,7 @@ textarea {width: 552px; height: 200px; resize: none;}
 /* Gallery */
 
 /* Create four equal columns that sits next to each other */
-.flex-container {
+.wrapper flex-container {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
