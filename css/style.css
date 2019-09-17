@@ -134,6 +134,7 @@ textarea {width: 552px; height: 200px; resize: none;}
   display: flex;
   flex-direction: row;
   align-content: center;
+   justify-content: center;
   height: auto;
 }
 /* Clear floats after the columns */
