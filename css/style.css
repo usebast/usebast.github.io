@@ -138,7 +138,7 @@ textarea {width: 552px; height: 200px; resize: none;}
   height: auto;
 }
 
-#works moto {
+.moto p {
   width: 610px;
   display: inline-block;
   text-align: justify;
@@ -146,6 +146,8 @@ textarea {width: 552px; height: 200px; resize: none;}
   padding: 20px;
   color: #fff;
 }
+
+
 /* Clear floats after the columns */
 .grow:after {
   content: "";
