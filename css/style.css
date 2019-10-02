@@ -186,4 +186,9 @@ textarea {width: 552px; height: 200px; resize: none;}
 
 
 /* footer */
-footer {font-family: 'Dosis', sans-serif; font-size: 12px; width: 100%; height: 50px; position: fixed; bottom: 0; left: 0;  background: rgba(211, 211, 211, 0.5); box-shadow: 0 5px 3px rgba(0, 0, 0, 0.1); z-index: 1;}
+footer {font-family: 'Dosis', sans-serif;
+font-size: 12px; width: 100%; height: 50px;
+position: fixed; bottom: 0; left: 0;
+background: rgba(211, 211, 211, 0.5);
+box-shadow: 0 5px 3px rgba(0, 0, 0, 0.1);
+z-index: 1;}
