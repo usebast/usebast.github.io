@@ -83,7 +83,7 @@ header nav ul li {float: left; margin-right: 16px; color: #003153; }
 
 .backbut  {
   display: inline-block;
-  text-align: justify;
+  text-align: left;
   padding-left: 20px;
   padding-right: 20px;
   color: White;}
