@@ -81,12 +81,11 @@ header nav ul li {float: left; margin-right: 16px; color: #003153; }
   color: White;
 }
 
-#body wrapper backbut {
-  display: inline-block;
+#body backbut {
   text-align: left;
   padding-left: 20px;
   padding-right: 20px;
-  color: White;}
+}
 
 .pagetitle { height: 100%; margin-top: 170px; background-color: #f1f1f1; height:50px;}
 
