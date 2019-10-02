@@ -81,7 +81,7 @@ header nav ul li {float: left; margin-right: 16px; color: #003153; }
   color: White;
 }
 
-.wrapper backbut {
+#body wrapper backbut {
   display: inline-block;
   text-align: left;
   padding-left: 20px;
