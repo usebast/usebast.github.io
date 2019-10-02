@@ -79,8 +79,14 @@ header nav ul li {float: left; margin-right: 16px; color: #003153; }
   padding-left: 20px;
   padding-right: 20px;
   color: White;
-
 }
+
+.backbut  {
+  display: inline-block;
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: White;
 
 .pagetitle { height: 100%; margin-top: 170px; background-color: #f1f1f1; height:50px;}
 
