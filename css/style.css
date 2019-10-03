@@ -85,6 +85,7 @@ header nav ul li {float: left; margin-right: 16px; color: #003153; }
   text-align: left;
   padding-left: 20px;
   padding-right: 20px;
+  opacity: 0.5;
 }
 
 pagetitle { height: 100%; margin-top: 170px; background-color: #f1f1f1; height:50px;}
