@@ -41,6 +41,19 @@ header nav ul li {float: left; margin-right: 16px; color: #003153; }
 
 /* home */
 #mhvr  {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed;}
+#fox  {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed;}
+#pokito  {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed;}
+#flitzer  {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed;}
+#asi {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed;}
+#mhx {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed;}
+#cave {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed;}
+#messmer {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed;}
+#north {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed;}
+#medisana {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed;}
+#bs {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed;}
+
+
+
 #works {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed;}
 #works h1 {margin: 0px auto 0 auto; font-size: 40px; }
 #works h2 {margin: 0 auto 0 auto; font-size: 30px; color: rgba(0, 49, 83, 0.5);}
