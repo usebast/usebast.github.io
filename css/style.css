@@ -1,5 +1,6 @@
 html, body { margin: 0; padding: 0; height: 100%; text-align: center;}
 section { min-height: 100%; }
+.section { height: 100vh; }
 
 
 /* load fonts  */
@@ -40,17 +41,17 @@ header nav ul li {float: left; margin-right: 16px; color: #003153; }
 /* Works split screen - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 
 /* home */
-#mhvr  {background: url("images/works/double_bkg.jpg"); height:100%; background-position: center bottom; background-size: cover; background-attachment: fixed;}
-#fox  {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed; height: 100%; }
-#pokito  {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed; min-height: 100%; }
-#flitzer  {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed; min-height: 100%; }
-#asi {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed; min-height: 100%; }
-#mhx {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed; min-height: 100%; }
-#cave {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed; min-height: 100%; }
-#messmer {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed; min-height: 100%; }
-#north {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed; min-height: 100%; }
-#medisana {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed; min-height: 100%; }
-#bs {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed; min-height: 100%; }
+#mhvr  {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed;}
+#fox  {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed;}
+#pokito  {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed;}
+#flitzer  {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed;}
+#asi {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed; }
+#mhx {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed; }
+#cave {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed; }
+#messmer {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed; }
+#north {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed; }
+#medisana {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed; }
+#bs {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed; }
 
 
 
