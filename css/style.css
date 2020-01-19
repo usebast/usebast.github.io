@@ -40,8 +40,8 @@ header nav ul li {float: left; margin-right: 16px; color: #003153; }
 /* Works split screen - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 
 /* home */
-#mhvr  {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed;}
-#fox  {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed;min-height: 100%; }
+#mhvr  {background: url("images/works/double_bkg.jpg"); height:100%; background-position: center bottom; background-size: cover; background-attachment: fixed;}
+#fox  {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed; height: 100%; }
 #pokito  {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed; min-height: 100%; }
 #flitzer  {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed; min-height: 100%; }
 #asi {background: url("images/works/double_bkg.jpg"); background-position: center bottom; background-size: cover; background-attachment: fixed; min-height: 100%; }
