@@ -65,7 +65,7 @@ header nav ul li {float: left; margin-right: 16px; color: #003153; }
   margin: 10px 50px;
 }
 .gallery img {
-  width: 220px;
+  width: 100%;
   height: 150px;
   padding: 5px;
   filter: grayscale(100%);
