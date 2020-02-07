@@ -71,7 +71,7 @@ header nav ul li {float: left; margin-right: 16px; color: #003153; }
 }
 .backbut img:hover {
   filter: invert(100%);
-  transform: scale(2)
+  transform: scale(1.5)
 }
 
 .gallery {
