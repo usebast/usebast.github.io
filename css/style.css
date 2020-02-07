@@ -61,10 +61,14 @@ header nav ul li {float: left; margin-right: 16px; color: #003153; }
 .backbut{
   display: inline-block;
   text-align: left;
-  padding-left: 20px;
-  filter: invert(0%);
-  padding-right: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
   opacity: 0.5;
+}
+
+.backbut img {
+    filter: invert(0%);
+    transition: 0.5s;
 }
 .backbut img:hover {
   filter: invert(100%);
