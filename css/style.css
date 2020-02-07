@@ -65,13 +65,13 @@ header nav ul li {float: left; margin-right: 16px; color: #003153; }
   padding-right: 0px;
   opacity: 0.5;
 }
-
 .backbut img {
     filter: invert(0%);
     transition: 0.5s;
 }
 .backbut img:hover {
   filter: invert(100%);
+  transform: scale(1.1)
 }
 
 .gallery {
