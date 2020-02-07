@@ -89,9 +89,6 @@ header nav ul li {float: left; margin-right: 16px; color: #003153; }
   transform: scale(1.1);
 }
 
-.merkel {  font-family: 'Dosis', sans-serif; font-size: 12px; color: rgba(0, 49, 83, 0.5);
-}
-
 /* about   height: 100px; text-align: center; display: inline-block;  */
 #about {
         background: url("images/works/workbkg.jpg");
@@ -152,6 +149,10 @@ pagetitle { height: 100%; margin-top: 170px; background-color: #f1f1f1; height:5
   padding-right: 20px;
   color: White;
 }
+
+
+/* the columns */
+
 .bubu {float: left; width: 50%;}
 .bubu hr {width: 30px; height: 0; background: #494949; border: 3; margin: 20px auto 20px auto;}
 /* Clear floats after the columns */
@@ -160,7 +161,8 @@ pagetitle { height: 100%; margin-top: 170px; background-color: #f1f1f1; height:5
   display: table;
   clear: both;
 }
-
+.merkel {  font-family: 'Dosis', sans-serif; font-size: 12px; color: rgba(0, 49, 83, 0.5);
+}
 /* Contact */
 #contact h1 {margin: 70px auto 0 auto; font-size: 60px; }
 #contact {background: url("images/works/rotate_bkg.jpg");
