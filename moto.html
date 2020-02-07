@@ -6,20 +6,7 @@
         <link href="css/style.css" rel="stylesheet">
                 <link href="css/lightbox.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
-        <script>
-        function myFunction(imgs) {
-          // Get the expanded image
-          var expandImg = document.getElementById("expandedImg");
-          // Get the image text
-          var imgText = document.getElementById("imgtext");
-          // Use the same src in the expanded image as the image being clicked on from the grid
-          expandImg.src = imgs.src;
-          // Use the value of the alt attribute of the clickable image as text inside the expanded image
-          imgText.innerHTML = imgs.alt;
-          // Show the container element (hidden with CSS)
-          expandImg.parentElement.style.display = "block";
-        }
-        </script>
+
     </head>
 
 <body>
@@ -39,35 +26,20 @@
 <section id="works">
     <hr>
 <div class="wrapper">
-          <div class="row"><h1>VRed Rendering testing</h1>
-                <hr>
-            <div class="moto"><p>A quick testing of VRed raytrace rendering and Truelight materials: Carpaint, Chromes, glass and plastic, fabric. medium quality render, 256 image samples.
-The Bike model is made by Gonzo_3d@Turbosquid.</p></div>
+          <div class="row"><h1>VRed Rendering testing</h1></div>
+
+            <hr>
+            <div id="backbut"> <a href="automotive.html"><img src="images/back.png" alt="arrow"></img></a></div>
+            <div class="kinder">A quick testing of VRed raytrace rendering and Truelight materials: Carpaint, Chromes, glass and plastic, fabric. medium quality render, 256 image samples. The Bike model is made by Gonzo_3d@Turbosquid.</div> <!--   divend Kinder -->
     <hr>
-</div></div> <!--   divend wrapper -->
-<!-- The grid: 3 columns -->
-<div class="flex-container">
-<img src="/3dwork/moto/front3.png" style="width:23%;" alt="Front Detail" onclick="myFunction(this);">
-<img src="/3dwork/moto/front2.png" style="width:23%;" alt="Front" onclick="myFunction(this);">
-<img src="/3dwork/moto/back.png" style="width:23%;" alt="Back" onclick="myFunction(this);"> </div>
+<div class="gallery">
+            <a href="/3dwork/moto/front3.png" data-lightbox="Galleries" data-title="Front View"><img src="/3dwork/moto/front3.png" alt="Front Detail"></img></a>
+            <a href="/3dwork/moto/front2.png" data-lightbox="Galleries" data-title="Front"><img src="/3dwork/moto/front2.png" alt="Front"></img></a>
+            <a href="/3dwork/moto/back.png" data-lightbox="Galleries" data-title="Back"><img src="/3dwork/moto/back.png" alt="Back"></img></a>
+</div><!--   divend Gallery -->
 
 
-<!-- The expanding image container -->
-<div class="gcontainer">
-  <!-- Close the image -->
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-
-  <!-- Expanded image -->
-  <img id="expandedImg" style="width:69%">
-
-  <!-- Image text -->
-  <div id="imgtext"></div>
-</div>
-
-
-              <hr>
-          </div><!--   row-->
-
+</div><!--   divend wrapper -->
 </section>
 <!--the footer-->
 <footer>

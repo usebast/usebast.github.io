@@ -92,6 +92,8 @@ header nav ul li {float: left; margin-right: 16px; color: #003153; }
       }
 #about h1 {margin: 90px auto 0 auto; font-size: 40px;}
 .wrapper {text-align: center; height: 100vh;}
+/* the wrapper is wrapping the texts */
+
 .bio {
   height: 600px;
   width: 600px;
