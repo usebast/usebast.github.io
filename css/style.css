@@ -109,7 +109,7 @@ header nav ul li {float: left; margin-right: 16px; color: #003153; }
 }
 .galleryH img {
   height: auto;
-  max-width: 150px;
+  max-width: 250px;
   padding: 5px;
   filter: grayscale(100%);
   transition: 0.5s;
