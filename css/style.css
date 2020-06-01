@@ -89,6 +89,21 @@ header nav ul li {float: left; margin-right: 16px; color: #003153; }
   transform: scale(1.1);
 }
 
+.galleryV {
+  margin: 10px 50px;
+}
+.galleryV img {
+  width: auto;
+  max-height: 250px;
+  padding: 5px;
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+.galleryV img:hover {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
 /* about   height: 100px; text-align: center; display: inline-block;  */
 #about {
         background: url("images/works/workbkg.jpg");
@@ -123,12 +138,6 @@ header nav ul li {float: left; margin-right: 16px; color: #003153; }
   padding-right: 20px;
   color: White;
 }
-
-
-
-
-
-
 
 .eventlist {
   height: 600px;
@@ -168,7 +177,6 @@ pagetitle { height: 100%; margin-top: 170px; background-color: #f1f1f1; height:5
   padding-right: 20px;
   color: White;
 }
-
 
 /* the columns */
 
