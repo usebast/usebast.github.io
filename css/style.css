@@ -104,6 +104,23 @@ header nav ul li {float: left; margin-right: 16px; color: #003153; }
   transform: scale(1.1);
 }
 
+.galleryH {
+  margin: 10px 50px;
+}
+.galleryH img {
+  height: auto;
+  max-width: 150px;
+  padding: 5px;
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+.galleryH img:hover {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+
+
 /* about   height: 100px; text-align: center; display: inline-block;  */
 #about {
         background: url("images/works/workbkg.jpg");
