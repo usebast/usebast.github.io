@@ -1,4 +1,4 @@
 # usebast.github.io
 not much to say here, as things are simple.
 ___
-animatter.eu is my art/code website.
+sebastiaans.art is my art/code website.
